@@ -19,19 +19,18 @@ test_requirements = ['pytest>=3', ]
 setup(
     author="Pavel Tanchev",
     author_email='dcopm999@gmail.com',
-    python_requires='>=3.5',
+    python_requires='>=3.6',
     classifiers=[
         'Development Status :: 2 - Pre-Alpha',
         'Intended Audience :: Developers',
         'License :: OSI Approved :: MIT License',
-        'Natural Language :: English',
+        'Natural Language :: Russian',
         'Programming Language :: Python :: 3',
-        'Programming Language :: Python :: 3.5',
         'Programming Language :: Python :: 3.6',
         'Programming Language :: Python :: 3.7',
         'Programming Language :: Python :: 3.8',
     ],
-    description="Python Boilerplate contains all the boilerplate you need to create a Python package.",
+    description="TensorFlow code examples",
     entry_points={
         'console_scripts': [
             'tensorflow_examples=tensorflow_examples.cli:main',
